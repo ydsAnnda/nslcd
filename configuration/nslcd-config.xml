@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+ 
+<configuration>
+
+  <property>
+    <name>ldap.url</name>
+    <value>sandbox.hortonworks.com:389</value>
+    <description>LDAP hostname:port in the form e.g. sandbox.hortonworks.com:389</description>
+  </property> 
+
+  <property>
+    <name>distinguished.name</name>
+    <value>dc=hortonworks,dc=com</value>
+    <description>Distinguished name e.g. dc=hortonworks,dc=com</description>
+  </property> 
+  <property>
+    <name>groups.name</name>
+    <value>ou=Groups,dc=hortonworks,dc=com</value>
+    <description>Groups name e.g.ou=Groups,dc=hortonworks,dc=com</description>
+  </property> 
+  <property>
+    <name>users.name</name>
+    <value>ou=Users,dc=hortonworks,dc=com</value>
+    <description>Users name e.g.ou=Users,dc=hortonworks,dc=com</description>
+  </property>   
+
+  
+</configuration>
+
